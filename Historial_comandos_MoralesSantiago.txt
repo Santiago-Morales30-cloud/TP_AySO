@@ -1,0 +1,432 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls -la
+cd repogit/
+git clone git@github.com:Santiago-Morales30-cloud/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cd ..
+cd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+cat /etc/passwd | grep UBUNTU
+cat /etc/passwd | grep ubuntu
+cat /etc/passwd | grep -i Ubuntu
+mkdir datos_usuario.txt 
+ls datos_usuario.txt/
+ls -la
+rm datos_usuario.txt/
+ls -la
+rm -r datos_usuario.txt/
+ls -la
+cat /etc/shadow
+sudo cat/etc/shadow
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep ubuntu | awk -F ':' '{print$2}' > datos_usuario.txt
+ls -la
+ls -la datos_usuario.txt 
+whoami
+echo "Usuario=$(whoami)" >> datos_usuario.txt 
+ls -la
+vim datos_usuario.txt 
+sudo cat /etc/shadow | grep ubuntu | awk -F ':' '{print$2}'
+sudo cat /etc/shadow | grep Ubuntu | awk -F ':' '{print$2}'
+vim datos_usuario.txt 
+sudo cat /etc/shadow | grep -i ubuntu | awk -F ':' '{print$2}'
+git status
+git add .
+cd repogit/
+ls
+cd TP_AySO
+git status
+git add .
+git status
+sudo snap install tree
+git status
+git --version
+ls -la
+history
+cd repogit/
+cp datos_usuario.txt
+cd TP_AySO/
+pwd
+cp datos_usuario.txt ..
+ls repogit/
+ls -l
+history
+sudo cat /etc/shadow | grep ubuntu | awk -F ':' '{print$2}' > datos_usuar
+io.txt
+sudo cat /etc/shadow | grep ubuntu | awk -F ':' '{print$2}' > datos_usuar
+io.txt
+sudo cat /etc/shadow | grep ubuntu | awk -F ':' '{print$2�}'
+history
+mv datos_usuario.txt repogit/TP_AySO/
+cd repogit/
+cd TP_AySO/
+ls l
+ls
+rm -r datos_usuar
+ls
+vim datos_usuario.txt 
+history
+git add .
+git status
+history
+git status
+cd repogit/TP_AySO/
+git status
+git add .
+git config --global user.email "santiagomorales300807@gmail.com
+git config --global user.email "santiagomorales300807@gmail.com
+history
+git add .
+git status
+git add .
+git config --global user.email "santiagomorales300807@gmail.com" ; git config --global user.name "Santiago-Morales30-cloud"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+history > "Historial_comandos_MoralesSantiago.txt
+history > "Historial_comandos_MoralesSantiago.txt
+ls 
+ls l
+ls -la
+rm -r 'Historial_comandos_MoralesSantiago.txt'$'\n''history > Historial_comandos_MoralesSantiago.txt'
+ls -la
+history
+history > historial.txt
+cat historial.txt 
+exit
+git config --global user.email "santiagomorales300807@gmail.com ; git config --global user.name "Santiago-Morales30-cloud"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exit
+history
+cd repogit/
+cd TP_AySO/
+cat /cpuinfo
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep "model name" | tail -n1
+cat /proc/cpuinfo | grep "model name" | tail -n1 >> info_pc.txt
+ls l
+ls
+git add info_pc.txt 
+git status
+git add .
+git status
+rm -r historial.txt 
+git add .
+git status
+git add info_pc.txt 
+ls
+git add datos_usuario.txt 
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+cd
+ls
+git status
+cd repogit/
+ls
+cd TP_AySO/
+cd
+cd repogit/
+cd TP_AySO/
+ls
+ls TP_AySO
+git status
+man grep
+git status
+man sort
+man sort -k
+git status
+git push
+git status
+cat /etc/passwd | grep -v | head -n10 | sort -k
+cat /etc/passwd | grep -v | head -n10 | sort -k 7
+grep --help
+cat /etc/passwd | grep -F | head -n10 | sort -k 7
+cat /etc/passwd | grep -F | head -n10
+man grep
+cat /etc/passwd | grep -v | head -n10
+cat /etc//passwd | grep -v * 
+cat /etc/passwd | grep -v * 
+cat /etc/passwd | grep -v * | head -n10
+cat /etc/passwd
+man grep
+cat /etc/passwd | grep -i "nologin" | head -n10
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k 7
+man sort
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k $7
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k 7
+cat /etc/passwd | grep -i "nologin" | head -n10
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k 7
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k 7 >> lista_ordenada
+vim lista_ordenada 
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+git push
+cat /etc/passwd | grep -i "nologin" | head -n10 | sort -k 7
+man grep
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -k 7
+man grep
+cat /etc/passwd | grep -y "nologin" | head -n10 | sort -k 7
+cat /etc/passwd | grep -x "nologin" | head -n10 | sort -k 7
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -k 7
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -k 7 > lista_ordenada 
+git add lista_ordenada 
+git status
+vim lista_ordenada 
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+git push
+ls README.md 
+vim README.md 
+cat << FIN >> README.md 
+Alumno: Santiago Morales
+Division: Division 116
+Turno: Turno mañana
+FIN
+
+git status
+git add README.md 
+git status
+ls README.md 
+vim README.md 
+cat README.md 
+history
+cat README.md 
+cat << FIN >> README.md 
+
+Alumno: Santiago Morales
+Division: Division 116
+Turno: Turno mañana
+FIN
+
+vim README.md 
+cat README.md 
+cat << FIN >> README.md 
+
+Alumno: Santiago Morales
+División: División 116
+Turno: Turno mañana
+FIN
+
+cat README.md 
+vim README.md 
+cat << FIN >> README.md 
+Alumno: Santiago Morales
+División: División 116
+Turno: Turno mañana
+FIN
+
+cat README.md 
+git add README.md 
+git status
+git commit -m "feat: Añadiendo/agregando la informacion del alumno"
+git status
+git push
+cat README.md 
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5}, so/Clase6}
+cat TP1/ tree
+cat TP1/
+ls
+tree TP1/
+rm -r TP1/
+ls
+ls so/
+rm so/
+rm -r so/
+ls
+LS
+ls
+man mkdir
+mkdir -p TP1/{{arquitectura, so} /Clase{1..5}, so/Clase6}
+ls
+tree TP1/
+rm -r TP1/
+RM -R so/
+rm -r so/
+rm -r so}/
+ls
+mkdir -p TP1/{arquitectura/Clase{1..5},so/{clase{1..5}, Clase6}}
+ls
+tree TP1/
+LS
+ls
+rm -r TP1/
+rm -r Clase6}}/
+mkdir -p TP1/ {arquitectura/ Clase{1..5} , so/ {clase{1..5} , Clase6 }}
+ls
+rm -r ,/
+rm -r Clase2/
+rm -r Clase4/
+rm -r Clase6/
+rm -r TP1/
+rm -r so/
+ls
+rm -r Clase1
+rm -r Clase5
+rm -r Clase3/
+ls
+rm -r \{arquitectura/
+rm -r \{clase1
+rm -r \{clase2/
+ls
+rm -r \{clase3/
+rm -r \{clase4/
+rm -r \{clase5/
+rm -r }}/
+ls
+hisroty
+history
+ls
+mkdir -p TP1/{arquitectura/Clase{1..5},so/{clase{1..5},Clase6}}}
+ls
+ls TP1/
+tree TP1/
+rm -r TP1/
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5},so/Clase6}
+ls
+tree TP1/
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5},so/Clase6} >> script_dir.sh
+cat script_dir.sh 
+vim script_dir.sh 
+ls
+./script_dir.sh
+rm -r script_dir.sh 
+ls
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5},so/Clase6} >> script_dir.sh 
+cat script_dir.sh 
+rm -r script_dir.sh 
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5},so/Clase6} > script_dir.sh 
+cat script_dir.sh 
+rm -r script_dir.sh 
+cat << FIN >> script_dir.sh
+mkdir -p TP1/{{arquitectura,so}/Clase{1..5},so/Clase6}
+FIN
+
+cat script_dir.sh 
+/etc/passwd
+ls -la
+./script_dir.sh
+chmod 777 script_dir.sh 
+./script_dir.sh 
+ls -la
+chmod 001
+chmod 001 script_dir.sh 
+ls -la
+vim script_dir.sh 
+cat script_dir.sh 
+chmod 777 script_dir.sh 
+cat script_dir.sh 
+ls
+vim script_dir.sh 
+./script_dir.sh 
+vim script_dir.sh 
+./script_dir.sh 
+ls -la
+vim script_dir.sh 
+rm -r TP1/
+./script_dir.sh 
+ls
+LS
+ls
+rm -r /TP1
+tree /TP1
+rm -r TP1/
+ls
+./script_dir.sh 
+ls
+tree TP1/
+ls
+ls -la
+git add script_dir.sh 
+git status
+git commit -m "ADD: Añadiendo script"
+git status
+git push
+history -a
+ls
+history
+history -a $HOME/.bash_history
+history
+ls
+ls $HOME/.bash_history
+man history
+history -a \$HOME/.bash_history 
+history -a $HOME/.bash_history 
+history -a
+cp .bash_history
+ls .bash_history
+ls
+cp .bash_history .. /repogit/TP_AySO
+history
+history -a $HOME/.bash_history 
+.bash_history > Historial_comandos_MoralesSantiago.txt
+history -a > Historial_comandos_MoralesSantiago.txt
+ls
+cat Historial_comandos_MoralesSantiago.txt 
+vim Historial_comandos_MoralesSantiago.txt 
+rm -r Historial_comandos_MoralesSantiago.txt 
+history > Historial_comandos_MoralesSantiago.txt
+cat Historial_comandos_MoralesSantiago.txt 
+rm -r Historial_comandos_MoralesSantiago.txt 
+history -a
+ls
+cat .bash_history
+cp .bash_history Historial_comandos_MoralesSantiago.txt
+cp .bash_history /TP_Ayso
+history -a
+exit
+cd repogit/
+cd TP_AySO/
+LS
+ls
+history
+cd
+history -a
